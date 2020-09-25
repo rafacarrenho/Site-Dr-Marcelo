@@ -1,0 +1,31 @@
+/******************\
+ * Sobre Principal
+\******************/
+
+#oncologia-principal {
+  overflow-x: hidden;
+
+  .tratamento-container {
+    display: flex;
+
+    figure {
+      padding: 8px;
+      margin-bottom: 0;
+      img {
+        max-width: 100px;
+      }
+    }
+    .tratamento-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h2 {
+        color: $primary-color;
+        margin: 0;
+        font-weight: bold;
+        font-size: 24px;
+      }
+    }
+  }
+}

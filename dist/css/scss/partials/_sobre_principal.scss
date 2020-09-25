@@ -1,0 +1,13 @@
+/******************\
+ * Sobre Principal
+\******************/
+
+#sobre-principal {
+  overflow-x: hidden;
+  .row {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .efeito-fundo {
+  }
+}

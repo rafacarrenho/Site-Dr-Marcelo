@@ -1,0 +1,1 @@
+<a href="<?php echo site_url(); ?>/agende-sua-consulta" class="btn-agende-agora">Agende sua consulta</a>

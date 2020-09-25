@@ -1,0 +1,16 @@
+/******************\
+ * Especialidades
+\******************/
+
+#especialidades {
+  background-color: $secondary-color !important;
+  padding: 60px 0;
+
+  p {
+    color: black;
+    span {
+      color: white;
+      font-weight: bold;
+    }
+  }
+}

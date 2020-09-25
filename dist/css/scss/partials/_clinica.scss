@@ -1,0 +1,23 @@
+/******************\
+ * Clinica
+\******************/
+
+#clinicaAbout {
+  text-align: justify;
+  padding: 80px 0;
+  background-color: $grey-1;
+
+  .first-clinica-foto {
+    margin-bottom: 30px;
+  }
+
+  figure {
+    cursor: pointer;
+  }
+
+  img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+  }
+}

@@ -1,0 +1,35 @@
+/******************\
+ * Call to Action
+\******************/
+
+#calltoaction {
+  position: relative;
+  padding: 40px 0;
+
+  .calltoaction-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: left;
+    z-index: -1;
+  }
+
+  .callcontainer {
+    max-width: 500px;
+    .calltele {
+      padding: 16px 0;
+      margin-left: auto;
+
+      h4 {
+        font-size: 24px;
+        text-align: right;
+        color: white;
+        padding: 8px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

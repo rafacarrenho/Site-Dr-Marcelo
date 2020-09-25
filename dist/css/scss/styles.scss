@@ -1,0 +1,48 @@
+/******************\
+ * Variaveis
+\******************/
+
+@import "variables/variables";
+
+/******************\
+ * Mixins
+\******************/
+
+@import "partials/mixin";
+
+/******************\
+ * Genericos
+\******************/
+
+@import "partials/generics";
+
+/******************\
+ * Partials
+\******************/
+
+@import "partials/blog";
+@import "partials/title";
+@import "partials/header";
+@import "partials/banner-simples";
+@import "partials/icons";
+@import "partials/divider";
+@import "partials/consulta";
+@import "partials/especialidades";
+@import "partials/especialista";
+@import "partials/footer";
+@import "partials/calltoaction";
+@import "partials/contato";
+@import "partials/atendimento";
+@import "partials/about";
+@import "partials/clinica";
+@import "partials/agendamento";
+@import "partials/whatsapp";
+@import "partials/modal";
+@import "partials/pagecentral";
+@import "partials/videos";
+@import "partials/tumor";
+@import "partials/tratamentos";
+@import "partials/sobre_principal";
+@import "partials/oncologia_principal";
+@import "partials/tumor_carousel";
+

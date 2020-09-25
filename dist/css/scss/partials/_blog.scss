@@ -1,0 +1,114 @@
+/* ************** *\
+ * Blog
+\* ************** */
+
+#blog {
+  padding: 30px 0;
+
+  .blog-cards {
+    padding: 24px;
+    img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      object-position: center;
+      transition: 0.3s ease;
+    }
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      transition: 0.3s ease;
+      @include transition;
+
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}
+
+.page-blog {
+  p {
+    text-align: justify;
+  }
+}
+
+#blog-sidebar {
+  margin-bottom: 20px;
+  .blog-sidebar-container {
+    width: 100%;
+    min-height: 60px;
+    margin: 15px 0;
+    border-bottom: 1px solid $grey-2;
+    figure.blog-sidebar-figure {
+      width: 50px;
+      height: 50px;
+      float: left;
+      margin-right: 16px;
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+
+    a {
+      text-decoration: none !important;
+    }
+    h4 {
+      font-size: 15px;
+      color: $primary-color;
+      text-decoration: none;
+      margin: 0 0 4px 0;
+      transition: 0.3s ease;
+      &:hover {
+        font-weight: bold;
+      }
+    }
+
+    p {
+      margin: 0;
+      color: rgb(160, 160, 160);
+      font-size: 14px;
+    }
+  }
+}
+
+.pagination {
+  .page-numbers {
+    color: $primary-color;
+    margin: 20px 5px;
+    font-weight: bold;
+    transition: 0.3s ease;
+
+    &.current {
+      color: $secondary-color;
+    }
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+.post-paginacao {
+  padding: 30px 15px;
+  box-sizing: border-box;
+  a {
+    color: $primary-color;
+    transition: 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+
+    span {
+      font-size: 28px;
+    }
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}

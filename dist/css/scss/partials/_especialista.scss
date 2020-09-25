@@ -1,0 +1,16 @@
+/******************\
+ * Especialista
+\******************/
+
+#especialista {
+  padding: 60px 0;
+  overflow-x: hidden;
+  .row {
+    justify-content: flex-end;
+  }
+  figure {
+    img {
+      width: 100%;
+    }
+  }
+}

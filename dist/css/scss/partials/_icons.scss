@@ -1,0 +1,32 @@
+/******************\
+ * Icons
+\******************/
+
+#functionsIcons {
+  max-width: 100%;
+  text-align: center;
+  padding-top: 20px;
+
+  .title {
+    margin: auto;
+    margin-bottom: 60px;
+  }
+  figure {
+    height: 80px;
+    margin: 0;
+    img {
+      width: unset !important;
+      height: 100% !important;
+      display: block;
+      margin: auto;
+    }
+  }
+  h2 {
+    font-size: 16px;
+    padding: 12px;
+    font-weight: bold;
+    max-height: 120px;
+    text-align: center;
+    color: $secondary-color;
+  }
+}
