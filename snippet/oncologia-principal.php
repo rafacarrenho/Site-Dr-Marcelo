@@ -1,10 +1,11 @@
  <!-- Teleatendimento -->
  <section id="oncologia-principal">
    <div class="container">
+     <h2 class="title"><?php the_title(); ?></h2>
      <div class="row">
        <div class="col-md-6">
          <div>
-           <h2 class="title"><?php the_title(); ?></h2>
+
            <?php the_content(); ?>
          </div>
        </div>

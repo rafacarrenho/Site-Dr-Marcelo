@@ -1,5 +1,5 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: $text-color;
 }
 button {
@@ -127,4 +127,14 @@ textarea {
 
 img {
   max-width: 100%;
+}
+
+.wp-block-button__link {
+  background-color: $primary-color;
+  text-decoration: none !important;
+  transition: 0.3s ease;
+
+  &:hover {
+    background-color: $secondary-color;
+  }
 }

@@ -3,39 +3,39 @@ $icones = array(
   array(
     "categoria" => "Câncer de Mama",
     "icone" => "breast",
-    "texto" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor",
+    "texto" => "",
     "link" => "cancer-de-mama"
   ),
   array(
     "categoria" => "Câncer de pulmão",
     "icone" => "lung-cancer",
-    "texto" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor",
+    "texto" => "",
     "link" => "cancer-de-pulmao"
   ),
   array(
     "categoria" =>
     "Câncer de Ovário",
     "icone" => "uterus",
-    "texto" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor",
+    "texto" => "",
     "link" => "cancer-de-ovario"
   ),
   array(
     "categoria" => "Cancer de Cólon",
     "icone" => "bowels",
-    "texto" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor",
+    "texto" => "",
     "link" => "cancer-de-colon"
   ),
   array(
     "categoria" => "Câncer de Pâncreas",
     "icone" => "pancreas",
-    "texto" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor",
+    "texto" => "",
     "link" => "cancer-de-pancreas"
   ),
   array(
     "categoria" => "Genômica",
     "icone" => "dna",
-    "texto" => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor",
-    "link" => "genomica"
+    "texto" => "",
+    "link" => "medicina-genomica"
   ),
 )
 ?>
@@ -50,7 +50,7 @@ $icones = array(
           </figure>
           <h2><?php echo $icone["categoria"]; ?></h2>
           <p><?php echo $icone["texto"]; ?></p>
-          <a href="<?php echo site_url() . "/" . $icone["link"]; ?>" class="btn-saiba-mais">Saiba mais</a>
+          <a href="<?php echo site_url() . "/tipos-de-tumor/" . $icone["link"]; ?>" class="btn-saiba-mais">Saiba mais</a>
         </div>
       <?php } ?>
     </div>

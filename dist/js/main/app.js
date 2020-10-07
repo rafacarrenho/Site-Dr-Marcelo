@@ -101,6 +101,30 @@ $(".tumor-carousel").owlCarousel({
 });
 
 /*------------------------*\
+    OWL CAROUSEL
+\*------------------------*/
+
+$(".video-carousel").owlCarousel({
+  autoplay: false,
+  autoplayTimeout: 6000,
+  loop: true,
+  margin: 10,
+  responsiveClass: true,
+  dots: true,
+  nav: false,
+  navContainerClass: "owl-nav",
+  navClass: ["owl-prev", "owl-next"],
+  responsive: {
+    0: {
+      items: 1,
+    },
+    662: {
+      items: 2,
+    },
+  },
+});
+
+/*------------------------*\
     Deslizar suavemente ao Scroll
 \*------------------------*/
 

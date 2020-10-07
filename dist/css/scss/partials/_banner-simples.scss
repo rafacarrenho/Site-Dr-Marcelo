@@ -4,8 +4,8 @@
 
 #banner-simples {
   position: relative;
-  padding: 280px 0 180px 0;
-  margin-bottom: 60px;
+  padding: 260px 0 160px 0;
+  margin-bottom: 20px;
 
   figure {
     margin: 0 !important;
@@ -33,7 +33,7 @@
       text-transform: uppercase;
       font-weight: bold;
       text-shadow: 2px 2px 5px rgb(100, 100, 100);
-      font-size: 28px;
+      font-size: 20px;
     }
     h2 {
       font-size: 18px;
@@ -47,7 +47,7 @@
     width: 100%;
     z-index: 1;
     height: 138px;
-    background-size: cover;
-    background-position: center;
+    background-size: cover !important;
+    background-position: center !important;
   }
 }

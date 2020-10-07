@@ -16,6 +16,8 @@
       <div class="col-md-3 py-3">
         <h5>Endereço</h5>
         <ul>
+          <li>Centro de Oncologia</li>
+          <li>Hospital Sírio-Libanês</li>
           <li>Rua D. Adma Jafet, 91</li>
           <li>Bela Vista - São Paulo-SP</li>
         </ul>
@@ -24,8 +26,13 @@
         <h5>Telefones</h5>
         <ul>
           <li>
-            <a href="tel:11992534828" class="text-white" title="Ligue para nós">
-              (11) 99253-4828
+            <a href="tel:1133944442" class="text-white" title="Ligue para nós">
+              (11) 3394-4442
+            </a>
+          </li>
+          <li>
+            <a href="tel:1133940252" class="text-white" title="Ligue para nós">
+              (11) 3394-0252
             </a>
           </li>
         </ul>
@@ -35,8 +42,8 @@
           <img src="<?php echo get_template_directory_uri(); ?>/dist/img/logo/logo.png" alt="Logo Instituto Salute" />
         </figure>
         <div class="social-footer">
-          <a href="https://www.instagram.com/oliviapozzolopsiquiatra/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/in/maria-olivia-pozzolo-pedro-b05653127/" target="_blank" rel="noopener" aria-label="Linkedin" title="Linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/dr.marcelocruz/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/marcelo-cruz-md-msc-708a0217/" target="_blank" rel="noopener" aria-label="Linkedin" title="Linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>

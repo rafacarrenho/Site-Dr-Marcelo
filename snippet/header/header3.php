@@ -9,11 +9,11 @@
       <div class="social-header">
         <div class="social-container horizontal-center">
           <div class="social-item">
-            <a href="tel:11992534828" class="horizontal-center">
+            <a href="tel:1133944442" class="horizontal-center">
               <span class="icon-container">
                 <i class="fas fa-phone" aria-hidden="true"></i>
               </span>
-              (11) 99253-4828
+              (11) 3394-4442
             </a>
           </div>
           <div class="social-item">
@@ -22,7 +22,7 @@
             </span>
             <div class="horario">
               Atendimento
-              <small>Seg a Sex das 8h às 17h30</small>
+              <small>Seg a Sex das 9h às 18h</small>
             </div>
           </div>
         </div>
@@ -44,10 +44,10 @@
         ?>
         <ul class="navbar-nav ml-auto social">
           <li class="nav-item">
-            <a class="nav-link" href="https://www.instagram.com/institutosalutesp/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a class="nav-link" href="https://www.instagram.com/dr.marcelocruz/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.facebook.com/Instituto-Salute-112557220517231" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+            <a class="nav-link" href="https://www.linkedin.com/in/marcelo-cruz-md-msc-708a0217/" target="_blank" rel="noopener" aria-label="Linkedin" title="Linkedin"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
           </li>
           <!-- <li class="nav-item">
                 <a class="nav-link" href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Twitter" title="Twitter"

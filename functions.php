@@ -21,11 +21,9 @@ function load_scripts()
 {
 	/********************\
 	 * Fontes
-		\********************/
+	\********************/
 
-	wp_enqueue_style('lato-google-fonts', 'https://fonts.googleapis.com/css2?family=Lato&display=swap', false);
-
-	wp_enqueue_style('cinzel-google-fonts', 'https://fonts.googleapis.com/css2?family=Cinzel&display=swap', false);
+	wp_enqueue_style('ubuntu-google-fonts', 'https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap', false);
 
 	/********************\
 	 * Arquivos CSS
